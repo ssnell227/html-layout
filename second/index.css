@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box ;
+}
+
+body {
+    width: 120vh;
+    min-width: 20vh;
+    height: 90vh;
+    margin: auto;
+}
+
+section {
+    width: 100%;
+    height: 33.3%;
+    margin: 20px 10px;
+    position: relative;
+}
+
+#first {
+    border: 4px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+#small-rect {
+    width: 5%;
+    height: 70%;
+    background-color: rgb(117, 0, 185);
+}
+
+#big-green-rect {
+    width: 40%;
+    height: 100%;
+    background-color: green;
+    margin: 0 50px;
+}
+
+#circle-container {
+    width: 23%;
+    height: 100%
+}
+
+#circle {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+#second {
+    border: 4px dotted black;
+}
+
+#tan-rect {
+    background-color: rgb(240, 236, 179);
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px;
+}
+
+#third {
+    border: 1px solid lightgrey;
+    width: 60%;
+    margin: auto;
+    box-shadow: 3px 3px 5px lightgrey;
+}
+
+#third h1 {
+    margin: 15% auto;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: navy;
+}
